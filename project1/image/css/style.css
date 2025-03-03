@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.section-title{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.section-lead{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+.hero{
+    height: 450px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('/hero.png');
+    color: #ffffff;
+    text-align: center;
+    padding: 100px;
+
+    
+}
+.hero-title{
+    font-size: 65px;
+
+}
+.hero-lead{
+    font-size: 25px;
+}
+.hero-btn{
+    background: #ffffff;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.about{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-right: 30px;
+}
+.about-layout{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+   align-items: center
+
+
+}
+.about-text{
+    list-style: 1.5;
+
+}
+.value{
+    background-color: #dcffa0;
+    padding: 35px;
+}
+.value-flex{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+.destination{
+    padding: 35px;
+
+}
+.destinations-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 35px;
+    margin-top: 50px;
+}
+.grid-item img{
+    width: 100%;
+    border: 5px solid #dcffa0;
+    border-radius: 15px;
+}
+.contact{
+    background: #c0d6ff;
+    padding: 35px;
+}
+.contact-card{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 650;
+    margin: auto;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+
+}
+input,textarea{
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+.btn-primary{
+    background-color: #2a74ff;
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+.text-center{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    padding: 30px;
+    color: #ffffff;
+    text-align: center;
+}
